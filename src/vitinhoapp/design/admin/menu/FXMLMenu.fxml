@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane prefHeight="69.0" prefWidth="1080.0" BorderPane.alignment="CENTER">
+         <children>
+            <ToggleButton id="savedSalesBtn" fx:id="savedSalesBtn" mnemonicParsing="false" onAction="#switchCenter" prefHeight="70.0" prefWidth="179.0" stylesheets="@../../../../../../ProjectGUI/src/projetoii/design/user/work/menu/top/css/button/userTopMenuButton.css" text="Produtos" textFill="WHITE" />
+            <ToggleButton id="savedSalesBtn" fx:id="savedSalesBtn1" layoutX="188.0" mnemonicParsing="false" onAction="#switchCenter" prefHeight="70.0" prefWidth="179.0" stylesheets="@../../../../../../ProjectGUI/src/projetoii/design/user/work/menu/top/css/button/userTopMenuButton.css" text="Vendas" textFill="WHITE" />
+            <ToggleButton id="savedSalesBtn" fx:id="savedSalesBtn11" layoutX="376.0" mnemonicParsing="false" onAction="#switchCenter" prefHeight="70.0" prefWidth="179.0" stylesheets="@../../../../../../ProjectGUI/src/projetoii/design/user/work/menu/top/css/button/userTopMenuButton.css" text="Lucros" textFill="WHITE" />
+            <ToggleButton id="savedSalesBtn" fx:id="savedSalesBtn111" layoutX="564.0" mnemonicParsing="false" onAction="#switchCenter" prefHeight="70.0" prefWidth="179.0" stylesheets="@../../../../../../ProjectGUI/src/projetoii/design/user/work/menu/top/css/button/userTopMenuButton.css" text="Funcionários" textFill="WHITE" />
+            <ImageView fitHeight="55.0" fitWidth="87.0" layoutX="1011.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Vitinho/power-button-off%20(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="893.0" layoutY="27.0" prefHeight="17.0" prefWidth="109.0" />
+         </children>
+      </Pane>
+   </top>
+</BorderPane>
